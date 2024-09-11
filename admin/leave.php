@@ -26,7 +26,7 @@ $res=mysqli_query($con,$sql);
                         <div class="card-body">
                            <h4 class="box-title">Leave </h4>
 						    <?php if($_SESSION['ROLE']==2){ ?>
-						   <h4 class="box_title_link"><a href="add_leave.php">Add Leave</a> </h4>
+						   <h4 class="box_title_link"><a href="add_leave.php">Add Leave 7799</a> </h4>
 						   <?php } ?>
                         </div>
                         <div class="card-body--">
