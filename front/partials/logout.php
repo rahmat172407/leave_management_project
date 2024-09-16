@@ -1,8 +1,8 @@
 <?php
 session_start();
-unset($_SESSION['role']);
-unset($_SESSION['id']);
-unset($_SESSION['name']);
+unset($_SESSION['ROLE']);
+unset($_SESSION['USER_ID']);
+unset($_SESSION['USER_NAME']);
 header('location:login.php');
 die();
 ?>
